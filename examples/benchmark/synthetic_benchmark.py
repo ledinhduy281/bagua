@@ -231,6 +231,6 @@ logging.info(
         bagua.get_world_size() * img_sec_conf,
     )
 )
-
+#add comment
 if args.algorithm == "async":
     model.bagua_algorithm.abort(model)
